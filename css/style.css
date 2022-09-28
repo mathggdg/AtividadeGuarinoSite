@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+.imageontop {
+  width: 100%;
+  height: 40%;
+	min-height: 150px;
+  background-image: url(https://thumbs.dreamstime.com/z/fundo-abstrato-da-tecnologia-da-ti-87160728.jpg);
+	background-size: auto;
+  background-position: center;
+	display: flex;
+	flex-direction: column;
+	position: relative
+}
+
+h1 {
+  text-align: center;
+  margin-top: 45px;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #7e0e0e;
+}
+
+section {
+  padding: 12px;
+}
+
+.h2-title {
+  color: black;
+  font-size: 24px;
+  margin: 0;
+  font-weight: 500;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.25em;
+  letter-spacing: 0.02em;
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.p-text {
+  font-family: 'Inter', sans-serif;
+  color: rgb(39, 39, 39);
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.container {
+  display: flex;
+  position: relative;
+}
+
+.h2-title {
+  margin: 7px;
+}
+
+.p-text {
+  margin: 10px;
+}
+
+.p-text2 {
+  margin: 10px;
+}
+
+.imghobbies {
+  margin: 0;
+  width: 500px;
+  height: 408px;
+  display: block;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #333;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.footer h2 {
+  color: white;
+}
